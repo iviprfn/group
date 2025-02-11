@@ -1,1 +1,30 @@
+body{
+    background-color:rgb(210, 230, 240)
+}
+img{
+    border-radius:60px;
 
+}
+ .first{
+
+border:5px solid;
+border-radius: 20px;
+float:left
+ }
+ .second{
+    border:5px solid;
+border-radius: 20px;
+margin-left: 370px;
+margin-right:370px;
+ }
+ivy{
+    border-radius:60px;
+}
+
+
+ .third{
+    border:5px solid;
+border-radius: 20px;
+float:right;
+border-bottom: 50px;
+ }
