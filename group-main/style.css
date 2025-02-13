@@ -1,0 +1,131 @@
+.h1{
+    text-align:center;
+}
+.body{
+    background-image:url(wp.jpg);
+   background-size: cover;
+}
+header{
+    background-color:rgb(155, 163, 163);
+    border:8px solid rgb(19, 18, 18);
+    border-radius:20px;
+}
+.container {
+    font-family: Arial, sans-serif;
+    display: flex;
+position:relative;
+left: 10px;
+    height: 100vh;
+    margin-top: 50px;
+    gap: 20px;
+}
+.section1{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: left;
+    position:relative;
+    left: 460px;
+    bottom: 560px;
+    right:200px;
+    height: 100vh;
+    margin-top: 0px;
+        gap: 20px;
+}
+.section2{
+    font-family: Arial, sans-serif;
+    display: flex;
+    position:relative;
+    left: 900px;
+    bottom: 1123px;
+    right:100px;
+    height: 100vh;
+    margin-top: -0px;
+    gap: 20px;
+}
+
+.box {
+    width: 250px;
+    background: rgb(207, 204, 204);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    box-margin:10px;
+    border-top: 8px solid teal;
+}
+.box.orange {
+    border-top: 8px solid orange;
+}
+.box.yellow {
+    border-top: 8px solid gold;
+}
+
+   
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0c0c0c;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 18px;
+    color: #050505;
+}
+
+
+
+.box.orange .circle {
+    background: orange;
+}
+
+.box.yellow .circle {
+    background: gold;
+}
+.k{
+align:right;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: gray;
+    border:2px;
+    border-radius:50px;
+    background-color:#009090;
+    color :#000000;
+
+   } 
+    .ivi{
+align:right;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: gray;
+    border:2px;
+    border-radius:50px;
+    background-color:orange;
+      color :#000000;
+      
+    
+    }
+    .coach {
+align:right;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: gray;
+    border:2px;
+   border-radius:50px;
+    background-color:gold;
+      color :#000000;
+    }
+    .footer{
+        margin-bottom: 10px;
+        background-color: #009090;
+
+    }
+     img{
+        border-radius:50px;
+     }
+     button{
+        cursor:pointer;
+    
+     }
